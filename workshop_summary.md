@@ -4,6 +4,9 @@
 
 Idag, mellan kl. 8:30 och 9:30, hade jag äran att hålla en AI Workshop för 29 engagerade deltagare från Falkenbergs kommun. Workshopen, med titeln "Välkommen till AI Workshop med Chat GPT!", syftade till att utforska och lära om Chat GPT, en kraftfull AI-modell utvecklad av OpenAI.
 
+## Instruktioner för att komma igång
+[Instruktioner för att komma igång med Chat GPT](https://app.tango.us/app/workflow/Steps-to-Access-OpenAI-Chat-Platform-84587683f6bd4d11886773b922ef1ff0)
+
 ### Inledning
 
 Workshopen började med en introduktion till AI och Chat GPT. Vi diskuterade grundläggande begrepp inom AI och hur Chat GPT fungerar. Vi betonade att trots all sin förmåga, är Chat GPT inte medveten. Den har ingen förståelse eller kännedom om världen på samma sätt som en människa gör.

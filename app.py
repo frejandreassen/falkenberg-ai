@@ -9,8 +9,6 @@ st.set_page_config(
 )
 
 def main():
-    # Display app title
-    st.title("AI Workshop Summary by Frej Andreassen")
 
     # Read markdown file
     with open("workshop_summary.md", "r", encoding='utf-8') as file:

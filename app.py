@@ -1,8 +1,23 @@
 import streamlit as st
 
-st.markdown('Streamlit is **_really_ cool**.')
-st.markdown('This text is :red[colored red], and this is **:blue[colored]** and bold.')
-st.markdown(":green[$\sqrt{x^2+y^2}=1$] is a Pythagorean identity. :pencil:")
-file = open('./test.md')
-markdown = file.read()
-st.markdown(markdown)
+# Set page title, meta description, and logo
+st.set_page_config(
+    page_title="AI Workshop Summary",
+    page_icon="logo.png",  # replace with your logo file
+    initial_sidebar_state="expanded",
+    layout='centered'
+)
+
+def main():
+    # Display app title
+    st.title("AI Workshop Summary by Frej Andreassen")
+
+    # Read markdown file
+    with open("workshop_summary.md", "r", encoding='utf-8') as file:
+        markdown_text = file.read()
+
+    # Display markdown using Streamlit
+    st.markdown(markdown_text)
+
+if __name__ == "__main__":
+    main()
